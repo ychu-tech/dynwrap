@@ -49,7 +49,7 @@ create_ti_method_container <- function(
       babelwhale::pull_container(container_id)
     }
   } else if (config$backend == "singularity") {
-    babelwhale::pull_container(container_id)
+    #babelwhale::pull_container(container_id)
   }
 
   ######################################################
